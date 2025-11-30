@@ -1,0 +1,24 @@
+<!doctype html>
+<html>
+<head>
+  <title>Puzzle Entry</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>Enter the password</h1>
+  <input type="text" id="password" autocomplete="off">
+  <button onclick="checkPassword()">Submit</button>
+  <p id="message"></p>
+
+  <script>
+    function checkPassword() {
+      var pw = document.getElementById('password').value;
+      if(pw.toLowerCase() === 'start10101') {
+        window.location.href = 'success.html';
+      } else {
+        document.getElementById('message').textContent = 'Incorrect, try again.';
+      }
+    }
+  </script>
+</body>
+</html>
