@@ -300,9 +300,8 @@ The signs sharpen
 
 And the prize waits
 
-https://thecrossing-png.github.io/crossing/
-
 Just beyond the final veil.
 
+https://thecrossing-png.github.io/crossing/
 
 
